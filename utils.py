@@ -122,5 +122,5 @@ def plotConfusionMatrix(y_true,y_pred):
     ax.yaxis.set_ticklabels(['AD', 'MCI','HC'],va="center")
     #plt.show()
     
-    output_image_path = os.path.join('C:/Users/benga/Documents/Tesis Isabel', "matrix_CNN_LSTM_Attention_conf.png")
+    output_image_path = os.path.join('C:/Users/MM/Documents/Alzheimer', "matrix_CNN_LSTM_Attention_conf.png")
     plt.savefig(output_image_path, bbox_inches='tight', pad_inches=0, dpi=300) 
